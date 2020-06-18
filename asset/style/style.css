@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    background-color: silver;
+    width: 150px;
+    height: 100vh;
+}
+
+aside.soal {
+    display: flex;
+    flex-direction: column;
+}
+
+.isi {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+p {
+    margin: 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.soal1 {
+    padding-top: 20px;
+    margin-left: 100px;
+}
